@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.WEB</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+        .card-img-top {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .list-container {
+          position: absolute;
+          top: 40%; /* Ajustado desde 50% */
+          left: 23%;
+          transform: translate(-50%, -50%);
+          color: rgb(180, 197, 199);
+          border-radius: 5px;
+          z-index: 1;
+      }
+      .btn-Regresar {
+          background-color: rgba(227, 236, 229, 0.849);
+          color: rgb(177, 218, 235);
+          padding: 15px 30px;
+          font-size: 1.5rem;
+          font-family: 'Bahnschrift Light', sans-serif;
+        }
+      
+        ul {
+            list-style-type: disc;
+            padding: 0;
+            
+        }
+        li {
+            margin-bottom: 15px;
+            padding-left: 15px; /* Agrega separación entre viñeta y texto */
+            color: rgb(94, 85, 85);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+      
+          .btn-regresar {
+            background-color: rgb(6, 7, 7);
+            color: rgb(181, 207, 175);
+            padding: 15px 30px;
+            font-size: 1.5rem;
+          }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="img/S13.jpg" class="card-img-top" alt="...">
+        <div class="list-container">
+
+            
+            
+            <h1 style="font-size: 36px;" class="card-title">SEGURIDAD DIGITAL </h1>
+            <ul>
+                <li><a href="portada1.html" style="font-size: 24px;">INTRODUCCIÓN</a></li>
+                <li><a href="c.generales3.html" style="font-size: 24px;">CONSEJOS GENERALES</a></li>
+                <li><a href="proteccion4.html" style="font-size: 24px;">PROTECCIÓN DE CONTRASEÑAS</a></li>
+                <li><a href="redes_sociales5.html" style="font-size: 24px;">SEGURIDAD DE REDES SOCIALES</a></li>
+                <li><a href="malware6.html" style="font-size: 24px;">PROTECCION EL MALWARE</a></li>
+                <li><a href="recursos7.html" style="font-size: 24px;">RECURSOS
+                </a></li>
+            </ul>
+            <div>
+                <a href="portada1.html" class="btn btn-regresar">REGRESAR</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
